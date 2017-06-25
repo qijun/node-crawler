@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser'
 import session from 'express-session';
 import connectMongo from 'connect-mongo';
 
+
 const app = express();
 
 app.all('*', (req, res, next) => {
@@ -52,6 +53,7 @@ router(app);
 //     ]
 // }));
 
+app.use(express.static('./public'));
 app.use((err, req, res, next) => {
 	res.status(404).send('未找到当前路由');
 });
