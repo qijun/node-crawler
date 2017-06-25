@@ -1,0 +1,13 @@
+start
+1:
+express(restful)
+jwt tokens 
+joi arg validty
+orm mongoose 
+midd
+
+2:api doc
+swagger:
+1)swagger doc
+2)jsdoc doc=>swagger doc=>html
+3)api test=>swagger doc
